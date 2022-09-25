@@ -20,17 +20,17 @@ public class HouseBuilder {
         return this;
     }
 
-    public HouseBuilder livingRoom(LivingRoom livingRoom){ //Quitando el FINAL porque el final es para los que no quieres modificar
+    public HouseBuilder livingRoom(final LivingRoom livingRoom){
         this.livingRoom = livingRoom;
         return this;
     }
 
-    public HouseBuilder restRooms(RestRoom restRooms){
+    public HouseBuilder restRooms(RestRoom restRooms){ //Quitando el FINAL porque el final es para los que no quieres modificar
         this.restRooms.add(restRooms);
         return this;
     }
 
-    public HouseBuilder bedRooms(final BedRoom bedRooms){
+    public HouseBuilder bedRooms(BedRoom bedRooms){
         this.bedRooms.add(bedRooms);
         return this;
     }
