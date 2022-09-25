@@ -1,13 +1,14 @@
 package oop.parcial2.neighborhood;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class House {
     private Kitchen kitchen;
     private DiningRoom diningRoom;
     private LivingRoom livingRoom;
-    private List<RestRoom> restRooms;
-    private List<BedRoom> bedRooms;
+    private List<RestRoom> restRooms = new ArrayList<>();
+    private List<BedRoom> bedRooms = new ArrayList<>();
 
 
     public House(Kitchen kitchen, DiningRoom diningRoom, LivingRoom livingRoom, List<RestRoom> restRooms, List<BedRoom> bedRooms){
