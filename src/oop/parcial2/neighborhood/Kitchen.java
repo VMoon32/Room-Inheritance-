@@ -7,7 +7,7 @@ public class Kitchen extends Room{
     private boolean refrigerator;
     private boolean oven;
 
-    public Kitchen(int width, int height, String color, boolean stove, boolean sink, int windows, boolean refrigerator, boolean oven){
+    Kitchen(int width, int height, String color, boolean stove, boolean sink, int windows, boolean refrigerator, boolean oven){
         super(width, height, color);
         this.stove = stove;
         this.sink = sink;

@@ -5,7 +5,7 @@ public class LivingRoom extends Room{
     private boolean tv;
     private boolean homeTheater;
 
-    public LivingRoom(int width, int height, String color, int windows, boolean tv, boolean homeTheater){
+    LivingRoom(int width, int height, String color, int windows, boolean tv, boolean homeTheater){
         super(width, height, color);
         this.windows = windows;
         this.tv = tv;

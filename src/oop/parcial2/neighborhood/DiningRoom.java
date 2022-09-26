@@ -5,7 +5,7 @@ public class DiningRoom extends Room{
     private boolean tv;
     private int chairsCapacity;
 
-    public DiningRoom(int width, int height, String color, int windows, boolean tv, int chairsCapacity) {
+    DiningRoom(int width, int height, String color, int windows, boolean tv, int chairsCapacity) {
         super(width, height, color);
         this.windows = windows;
         this.tv = tv;

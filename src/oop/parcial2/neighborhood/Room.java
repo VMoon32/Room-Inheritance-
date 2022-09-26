@@ -5,7 +5,7 @@ public class Room {
     private int height;
     private String color;
 
-    public Room(int width, int height, String color){
+    Room(int width, int height, String color){
         this.width = width;
         this. height = height;
         this.color = color;

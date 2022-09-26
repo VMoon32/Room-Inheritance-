@@ -11,7 +11,7 @@ public class House {
     private List<BedRoom> bedRooms = new ArrayList<>();
 
 
-    public House(Kitchen kitchen, DiningRoom diningRoom, LivingRoom livingRoom, List<RestRoom> restRooms, List<BedRoom> bedRooms){
+    House(Kitchen kitchen, DiningRoom diningRoom, LivingRoom livingRoom, List<RestRoom> restRooms, List<BedRoom> bedRooms){
         this.kitchen = kitchen;
         this.diningRoom = diningRoom;
         this.livingRoom = livingRoom;

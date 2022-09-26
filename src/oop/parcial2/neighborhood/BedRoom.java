@@ -4,7 +4,7 @@ public class BedRoom extends Room{
     private BedSize bedSize;
     private boolean tv;
 
-    public BedRoom(int width, int height, String color, BedSize bedSize, boolean tv) {
+    BedRoom(int width, int height, String color, BedSize bedSize, boolean tv) {
         super(width, height, color);
         this.bedSize = bedSize;
         this.tv = tv;

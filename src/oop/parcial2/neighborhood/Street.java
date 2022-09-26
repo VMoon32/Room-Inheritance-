@@ -6,7 +6,7 @@ public class Street {
     private String name;
     private TreeMap<Integer, House> houses;
 
-    public Street(String name, TreeMap<Integer, House> houses) {
+    Street(String name, TreeMap<Integer, House> houses) {
         this.name = name;
         this.houses = houses;
     }
